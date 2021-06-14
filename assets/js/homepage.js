@@ -122,6 +122,6 @@ var displayRepos = function(repos, searchTerm) {
   }
 };
   
-// add event listeners to forms and button conatiner
+// add event listeners to forms and button conatiner.
 userFormEl.addEventListener('submit', formSubmitHandler);
 languageButtonsEl.addEventListener("click", buttonClickHandler);
